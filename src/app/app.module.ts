@@ -7,6 +7,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatTabsModule} from '@angular/material/tabs';
 import { CardComponent } from './card/card.component';
 import { CardTabsComponent } from './card-tabs/card-tabs.component';
+import { FormsModule } from '@angular/forms';
+import { NgPaymentCardModule } from 'ng-payment-card';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { CardTabsComponent } from './card-tabs/card-tabs.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatTabsModule,
+    FormsModule,
+    NgPaymentCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
